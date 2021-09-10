@@ -29,3 +29,9 @@ variable "assign_ip" {
   type = bool
   default = true
 }
+
+variable "ami_id" {
+  description = "use assign ip"
+  type = string
+  default = "ami-050aa794c793770d8"
+}
