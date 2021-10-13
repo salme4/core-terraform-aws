@@ -1,1 +1,0 @@
-#Terraform Core With Jenkins 
