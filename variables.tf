@@ -1,6 +1,6 @@
 variable "ec2_name" {
   description = "ec2 instance tag Name"
-  default = "china-terraform-core-ec2"
+  default = "devos-demo-terraform-core-ec2"
 }
 
 variable "subnet_id" {
@@ -11,12 +11,12 @@ variable "subnet_id" {
 variable "security_groups" {
   description = "security group ids"
   type = list(string)
-  default = ["sg-067ee7595b22f17f8"]
+  default = ["sg-03c12140254b38dc3"]
 }
 
 variable "key_pair" {
   description = "pem key pair name"
-  default = "devos-chaina-service"
+  default = "devos-seoul-keypair"
 }
 
 variable "instance_type" {
@@ -28,10 +28,4 @@ variable "assign_ip" {
   description = "use assign ip"
   type = bool
   default = true
-}
-
-variable "ami_id" {
-  description = "use assign ip"
-  type = string
-  default = "ami-050aa794c793770d8"
 }
