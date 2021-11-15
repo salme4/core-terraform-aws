@@ -1,3 +1,8 @@
+variable "region" {
+  description = "region"
+  default = "ap-northeast-2"
+}
+
 variable "ec2_name" {
   description = "ec2 instance tag Name"
   default = "devos-demo-terraform-core-ec2"
