@@ -1,7 +1,7 @@
-region = "ap-northeast-2"
-ec2_name = ""
-subnet_id = "subnet-0f0d20e44d0cf905a"
-security_groups = ["sg-03c12140254b38dc3"]
-key_pair = "devos-seoul-keypair"
+region = "ap-northeast-1"
+ec2_name = "daveec2s3"
+subnet_id = "subnet-08001741042103ba7"
+security_groups = ["sg-0c9914a9c2f952279"]
+key_pair = "prod-demo-bastion-key"
 instance_type = "t2.micro"
 assign_ip = false
