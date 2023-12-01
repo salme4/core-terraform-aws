@@ -17,7 +17,7 @@ config_terraform_path: aws-nexus-demo/terraform/demo
 customer: bespin-global
 cycloid_api_url: https://api-eu.cycloid.io
 env: demo
-keypair_public: ((davekey.ssh_key))
+keypair_public: ((dave-ssh-key.ssh_key))
 project: aws-nexus-demo
 stack_git_branch: master
 stack_git_repository: https://github.com/cycloid-community-catalog/onboarding-stacks.git
