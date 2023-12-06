@@ -15,7 +15,7 @@ config_terraform_path: daveedproject/terraform/demo
 customer: bespin-global
 cycloid_api_url: https://api-eu.cycloid.io
 env: demo
-keypair_public: ((davekeyed.ssh_key))
+keypair_public: ((test1111.pub))
 project: daveedproject
 stack_git_branch: master
 stack_git_repository: https://github.com/cycloid-community-catalog/onboarding-stacks.git
