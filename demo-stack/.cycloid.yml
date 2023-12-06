@@ -1,0 +1,23 @@
+version: "2"
+name: demo-stack
+canonical: demo-stack
+author: daehyun_kim
+status: private
+description: 'demo '
+image: ""
+keywords:
+- demo
+- provider:aws
+template: false
+template_ignore: []
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
