@@ -1,5 +1,0 @@
-module "demo-stack" {
-  aws_subnet_pub_subnet_vpc_id = "vpc-2ba25a4d"
-  source                       = "./module-demo-stack"
-}
-
