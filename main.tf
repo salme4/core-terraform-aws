@@ -1,6 +1,6 @@
 
 resource "aws_instance" "aws-ec2" {
-  ami = "ami-0d3d9b94632ba1e57"
+  ami = "ami-0d3d9b94632ba1e572"
   instance_type = var.instance_type
   associate_public_ip_address = var.assign_ip
   key_name = var.key_pair
